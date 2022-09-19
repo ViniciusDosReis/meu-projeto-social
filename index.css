@@ -28,6 +28,13 @@ section#telefone {
     transform: translate(-50%, -50%);
 }
 
-section#telefone img {
-    background-size: cover;
+section#botões {
+    text-align: right;
+}
+
+section a img {
+    border-radius: 50%;
+    height: 50px;
+    margin: 10px;
+    
 }
