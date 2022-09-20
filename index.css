@@ -18,7 +18,7 @@ section#telefone iframe {
     left: 50%;
     transform: translate(-49%, -49%);
     width: 270px;
-    height: 473px;
+    height: 473px;;
 }
 
 section#telefone {
@@ -37,4 +37,11 @@ section a img {
     height: 50px;
     margin: 10px;
     
+}
+
+section#botões img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: transform .3s, border 1s;
+    box-shadow: 5px 5px 10px black;
 }
